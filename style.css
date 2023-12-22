@@ -1,26 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
 
-/* ::selection {
-    background-color: var();
-    color: var();
-} */
+::selection {
+    background-color: var(--color-light-white);
+}
 
 :root {
-    /* --color-01: #fff;
-    --color-02: #deebee;
-    --color-purple: #5e3bee;
-    --color-dark-blue: #1c1e53;
-    --color-green: #006b6a;
-    --color-seperator: #282932;
-    --color-black: #000;
-    --color-black-02: #000;
-    --color-icon: #000; */
-
     --color-a: #369FFF;
     --color-logo-a: #006ED3;
     --color-menu-btn: #D1E6F9;
     --color-menu-btn-i: #208BEE;
-    --color-sideBar-i: #000000;
     --color-upgrade: #EBF6FF;
 
     --color-border: #F0F0F0;
@@ -33,30 +21,23 @@
 }
 
 .dark-theme {
-    /* --color-01: #121212;
-    --color-02: #232e30;
-    --color-purple: #796596;
-    --color-dark-blue: #d0d0d0;
-    --color-green: #006b6a;
-    --color-seperator: #d0d0d0;
-    --color-black: #d0d0d0;
-    --color-black-02: #9b9b9b;
-    --color-icon: #d0d0d0; */
-
     --color-a: #369FFF;
-    --color-logo-a: #006ED3;
+    --color-logo-a: #5d99ff;
     --color-menu-btn: #D1E6F9;
     --color-menu-btn-i: #208BEE;
-    --color-sideBar-i: #000000;
-    --color-upgrade: #EBF6FF;
+    --color-upgrade: #1b242b;
 
-    --color-border: #F0F0F0;
+    --color-border: #2b2b2b;
     --color-search: #BDBDBD;
 
-    --color-white: #121212;;
-    --color-light-white: #232e30;
+    --color-white: #121212;
+    --color-light-white: #212121;
 
     --color-dark: #d0d0d0;
+}
+
+h5, h4, h3, p, a, i {
+    color: var(--color-dark);
 }
 
 /* ———————————–––––––––––––––-------------------- */
@@ -69,6 +50,10 @@
     font-family: 'Manrope', sans-serif;
 
     transition: background 0.7s ease, color 0.7s ease;
+}
+
+body {
+    background: var(--color-white);
 }
 
 a {
@@ -165,7 +150,7 @@ i {
 }
 
 .container .left-section .sidebar i {
-    color: var(--color-sideBar-i);
+    color: var(--color-dark);
 
     transition: all 0.3s ease;
 }
@@ -176,7 +161,7 @@ i {
     gap: 30px;
 
     font-size: 14px;
-    color: var(--color-sideBar-i);
+    color: var(--color-dark);
 
     position: relative;
 
@@ -313,6 +298,7 @@ main .separator .search input {
     font-weight: 500;
 
     width: 80px;
+    background: var(--color-white);
 
     border: none;
     outline: none;
@@ -440,6 +426,7 @@ main .separator input {
 
     font-weight: bold;
     color: var(--color-a);
+    background: var(--color-white);
 
     width: 100px;
 }
@@ -723,7 +710,7 @@ main .planning .item>i {
     content: "3/4";
 
     font-size: 14px;
-    color: var(--color-dark);
+    color: var(--color-logo-a);
 }
 
 /* ———————————–––––––––––––––--------------------------- */
