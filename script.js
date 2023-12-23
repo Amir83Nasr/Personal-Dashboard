@@ -1,4 +1,5 @@
 const menuOpen = document.getElementById('menu-open')
+const menuOpenI = document.getElementById('menu-open-i')
 const menuClose = document.getElementById('menu-close')
 const sideBar = document.querySelector('.container .left-section')
 const sideBarItems = document.querySelectorAll('.container .left-section .sidebar .item')
@@ -19,7 +20,7 @@ menuClose.addEventListener('click', () => {
 
 
 document.addEventListener('click', e => {
-    if (!sideBar.contains(e.target)) {
+    if (!sideBar.contains(e.target) && ((e.target !== menuOpen) && (e.target !== menuOpenI))) {
         sideBar.style.top = '-60vh'
         bell.style.zIndex = '0'
     }
