@@ -11,9 +11,18 @@ menuOpen.addEventListener('click', () => {
     bell.style.zIndex = '-1'
 })
 
+
 menuClose.addEventListener('click', () => {
     sideBar.style.top = '-60vh'
     bell.style.zIndex = '0'
+})
+
+
+document.addEventListener('click', e => {
+    if (!sideBar.contains(e.target)) {
+        sideBar.style.top = '-60vh'
+        bell.style.zIndex = '0'
+    }
 })
 
 
