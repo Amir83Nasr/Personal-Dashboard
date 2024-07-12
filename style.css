@@ -1,34 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
 
 ::selection {
     background-color: var(--color-light-white);
 }
 
 :root {
-    --color-a: #369FFF;
-    --color-logo-a: #006ED3;
-    --color-menu-btn: #D1E6F9;
-    --color-menu-btn-i: #208BEE;
-    --color-upgrade: #EBF6FF;
+    --color-a: #369fff;
+    --color-logo-a: #006ed3;
+    --color-menu-btn: #d1e6f9;
+    --color-menu-btn-i: #208bee;
+    --color-upgrade: #ebf6ff;
 
-    --color-border: #F0F0F0;
-    --color-search: #BDBDBD;
+    --color-border: #f0f0f0;
+    --color-search: #bdbdbd;
 
-    --color-white: #FFF;
-    --color-light-white: #F7F7F7;
+    --color-white: #fff;
+    --color-light-white: #f7f7f7;
 
     --color-dark: #000;
 }
 
 .dark-theme {
-    --color-a: #369FFF;
+    --color-a: #369fff;
     --color-logo-a: #5d99ff;
-    --color-menu-btn: #D1E6F9;
-    --color-menu-btn-i: #208BEE;
+    --color-menu-btn: #d1e6f9;
+    --color-menu-btn-i: #208bee;
     --color-upgrade: #1b242b;
 
     --color-border: #2b2b2b;
-    --color-search: #BDBDBD;
+    --color-search: #bdbdbd;
 
     --color-white: #121212;
     --color-light-white: #212121;
@@ -36,7 +36,12 @@
     --color-dark: #d0d0d0;
 }
 
-h5, h4, h3, p, a, i {
+h5,
+h4,
+h3,
+p,
+a,
+i {
     color: var(--color-dark);
 }
 
@@ -51,7 +56,7 @@ h5, h4, h3, p, a, i {
     padding: 0;
 
     box-sizing: border-box;
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
 
     transition: background 0.7s ease, color 0.7s ease;
 }
@@ -369,19 +374,23 @@ main .analiytics .item .progress .progress-bar {
 }
 
 main .analiytics .item:nth-child(1) .progress .progress-bar {
-    background: radial-gradient(closest-side, #006ED3 79%, transparent 80% 100%), conic-gradient(#208BEE 25%, var(--color-white) 0%);
+    background: radial-gradient(closest-side, #006ed3 79%, transparent 80% 100%),
+        conic-gradient(#208bee 25%, var(--color-white) 0%);
 }
 
 main .analiytics .item:nth-child(2) .progress .progress-bar {
-    background: radial-gradient(closest-side, #FF993A 79%, transparent 80% 100%), conic-gradient(#FF7E07 50%, var(--color-white) 0%);
+    background: radial-gradient(closest-side, #ff993a 79%, transparent 80% 100%),
+        conic-gradient(#ff7e07 50%, var(--color-white) 0%);
 }
 
 main .analiytics .item:nth-child(3) .progress .progress-bar {
-    background: radial-gradient(closest-side, #BAC53E 79%, transparent 80% 100%), conic-gradient(#6EB33D 75%, var(--color-white) 0%);
+    background: radial-gradient(closest-side, #bac53e 79%, transparent 80% 100%),
+        conic-gradient(#6eb33d 75%, var(--color-white) 0%);
 }
 
 main .analiytics .item:nth-child(4) .progress .progress-bar {
-    background: radial-gradient(closest-side, #FFD043 79%, transparent 80% 100%), conic-gradient(#FFC000 25%, var(--color-white) 0%);
+    background: radial-gradient(closest-side, #ffd043 79%, transparent 80% 100%),
+        conic-gradient(#ffc000 25%, var(--color-white) 0%);
 }
 
 main .analiytics .item .progress .progress-bar::before {
@@ -411,19 +420,19 @@ main .analiytics .item i {
 }
 
 main .analiytics .item:nth-child(1) {
-    background: #006ED3;
+    background: #006ed3;
 }
 
 main .analiytics .item:nth-child(2) {
-    background: #FF993A;
+    background: #ff993a;
 }
 
 main .analiytics .item:nth-child(3) {
-    background: #BAC53E;
+    background: #bac53e;
 }
 
 main .analiytics .item:nth-child(4) {
-    background: #FFD043;
+    background: #ffd043;
 }
 
 /* ———————————––––––––––––––– */
@@ -483,35 +492,35 @@ main .planning .item .left .icon {
 }
 
 main .planning .item:nth-child(1) .left .icon {
-    background: #D1E6F9;
+    background: #d1e6f9;
 }
 
 main .planning .item:nth-child(1) .left .icon i {
-    color: #369FFF;
+    color: #369fff;
 }
 
 main .planning .item:nth-child(2) .left .icon {
-    background: #F9E5D2;
+    background: #f9e5d2;
 }
 
 main .planning .item:nth-child(2) .left .icon i {
-    color: #FF993A;
+    color: #ff993a;
 }
 
 main .planning .item:nth-child(3) .left .icon {
-    background: #E2EDD2;
+    background: #e2edd2;
 }
 
 main .planning .item:nth-child(3) .left .icon i {
-    color: #BAC53E;
+    color: #bac53e;
 }
 
 main .planning .item:nth-child(4) .left .icon {
-    background: #F9F0D3;
+    background: #f9f0d3;
 }
 
 main .planning .item:nth-child(4) .left .icon i {
-    color: #FFD143;
+    color: #ffd143;
 }
 
 main .planning .item .left .details h5 {
@@ -555,7 +564,7 @@ main .planning .item>i {
     width: 0;
     height: 0;
 
-    background: #EB5757;
+    background: #eb5757;
     border-radius: 50%;
 }
 
@@ -647,7 +656,7 @@ main .planning .item>i {
 .container .right-section .stats .item .top p {
     font-size: 16px;
     font-weight: 500;
-    color: #8EA3B7;
+    color: #8ea3b7;
 }
 
 .container .right-section .stats .item .bottom {
@@ -675,7 +684,6 @@ main .planning .item>i {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 
     padding: 12px;
     width: 100%;
@@ -711,7 +719,8 @@ main .planning .item>i {
     height: 60px;
     border-radius: 50%;
 
-    background: radial-gradient(closest-side, #F7F7F7 79%, transparent 80% 100%), conic-gradient(#CCC 25%, #006ED3 0%);
+    background: radial-gradient(closest-side, #f7f7f7 79%, transparent 80% 100%),
+        conic-gradient(#ccc 25%, #006ed3 0%);
 }
 
 .container .right-section .weekly .progress-bar::before {
@@ -740,7 +749,6 @@ main .planning .item>i {
     .container .left-section .upgrade {
         display: none;
     }
-
 }
 
 /* ———————————–––––––––––––––--------------------------- */
@@ -814,7 +822,6 @@ main .planning .item>i {
     .container .right-section .stats .item .bottom h3 {
         font-size: 36px;
     }
-
 }
 
 /* ———————————–––––––––––––––--------------------------- */
